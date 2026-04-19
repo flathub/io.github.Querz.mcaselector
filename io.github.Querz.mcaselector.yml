@@ -38,12 +38,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/Querz/mcaselector.git
-        tag: 2.6.1
-        commit: 0c5e15a4e0efa12c30286de0230054efcf7fe1df
+        tag: '2.7'
+        commit: ffca1fe7a920e6f1ce0c595cb60390c40567282f
         x-checker-data:
           type: git
-          tag-pattern: ^v(\d*\.\d*\.\d*)$
-          version-scheme: semantic
+          tag-pattern: ^(\d+(?:\.\d+(?:\.\d+)?)?)$
       - type: script
         dest-filename: mcaselector
         commands:

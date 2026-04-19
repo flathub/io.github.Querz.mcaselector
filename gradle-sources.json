@@ -1100,45 +1100,45 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.3/flowless-0.7.3.jar",
-    "sha512": "2aa72ed0e0aee6654eae8a93e932213242db3b4652af2bcd16f8bc79257b71584ce223f5788db94eb6b47e89743add122fc830e585170d729d5c4f40fdc754f9",
-    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.3",
-    "dest-filename": "flowless-0.7.3.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.4/flowless-0.7.4.jar",
+    "sha512": "6d2ca44a7dc4bd92ea45d66f0da821bc73f67024f02049fc96109d3e432c1153c958f35aff427a41f2d423cb9d1e1679852d57675cb9b8e7523934d965287200",
+    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.4",
+    "dest-filename": "flowless-0.7.4.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.3/flowless-0.7.3.module",
-    "sha512": "a9fd433073c2e687c07e668b3050548ac3dddbaeb14f40534a3515e0d7c21f88b41bd60165d414749f949ecb72617b051cc0e0926f3846fecdf2346ddc105cc1",
-    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.3",
-    "dest-filename": "flowless-0.7.3.module"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.4/flowless-0.7.4.module",
+    "sha512": "9f6c187d87468df1ef713dd9b8d601c8c16c4b7550ed267d64d18a8b31cda074962a7fa21970bdb38baa6b9402ba34dc8e7a50a5d71634219b59077872fd74a6",
+    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.4",
+    "dest-filename": "flowless-0.7.4.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.3/flowless-0.7.3.pom",
-    "sha512": "ea9d27f20d7ca5f56de989f7ec1d53b8c9f2e08f81a85133380fdc5c886056a3be5e9660519b7345cbc7278e6b0d0b985b9cb123db031ad96b7f5fd40d0f8a1b",
-    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.3",
-    "dest-filename": "flowless-0.7.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/flowless/flowless/0.7.4/flowless-0.7.4.pom",
+    "sha512": "d46f16dd6febceed42275e3aa1b57eca500c700fa5140c09033df9b2c98e484a586c91d515adf2ea7537d5326cc64728dbf8f93e2965961d2d903278342b5325",
+    "dest": "./offline-repository/org/fxmisc/flowless/flowless/0.7.4",
+    "dest-filename": "flowless-0.7.4.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.4/richtextfx-0.11.4.jar",
-    "sha512": "4b93c5654a00d146e60e93a1eef3350424b83c618c012de22ecba9d04e9da0050639d6fdaba7cf691bcdf5491cf235cd42b306edffefdb6e2b66f3178ab816b4",
-    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.4",
-    "dest-filename": "richtextfx-0.11.4.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.7/richtextfx-0.11.7.jar",
+    "sha512": "dc41e873be565f2fd6a2c8ca2cf3c3c239afdb67892fc14aab3c19e3931012ab56a9d0b70e3d410485abb6cd96c54f44476bfe349834299bbe478118e592b874",
+    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.7",
+    "dest-filename": "richtextfx-0.11.7.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.4/richtextfx-0.11.4.module",
-    "sha512": "02d47700d9fe4234014f8fcceceb4ead1502723e3bb39dd965a66c2c7bea54694f35983bb0897d1e1042be1e0017458de659392f78a478d8bbec423db97ca88e",
-    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.4",
-    "dest-filename": "richtextfx-0.11.4.module"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.7/richtextfx-0.11.7.module",
+    "sha512": "53e4f5c01c9c6bf0eef69663fe52a1f2795079e81cf1ace620e45276397e68b52863a885b2140bf2a1c796105ccef9628c0a4dcca521c303f615d45eac4df834",
+    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.7",
+    "dest-filename": "richtextfx-0.11.7.module"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.4/richtextfx-0.11.4.pom",
-    "sha512": "efae20b9691ed370c9658442107823abcd18cc049589ed641d048480a7c602682008aa2e6a205e4cc6472fc6049f0951d62520664d349109e7de414dd92a51f1",
-    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.4",
-    "dest-filename": "richtextfx-0.11.4.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/fxmisc/richtext/richtextfx/0.11.7/richtextfx-0.11.7.pom",
+    "sha512": "9fa30d253218ac7fa03c1ff352bb0c67f88c0635a6957d2dac45d0d2ce8e75f737f6fcc2c9dfc9c53f00686cc1a9c09fb840b566376fd6a8048ad5f48a2824b0",
+    "dest": "./offline-repository/org/fxmisc/richtext/richtextfx/0.11.7",
+    "dest-filename": "richtextfx-0.11.7.pom"
   },
   {
     "type": "file",
