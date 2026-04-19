@@ -86,6 +86,6 @@ SDK=$(get_sdk)
 varify_jdk
 echo "Running on $SDK and $JDK"
 
-echo "source /usr/lib/sdk/$JDK/enable.sh && gradle flatpakGradleGenerator" | flatpak run --user --share=network --filesystem=$(pwd) --devel $SDK
+echo "source /usr/lib/sdk/$JDK/enable.sh && gradle flatpakGradleGenerator --no-configuration-cache" | flatpak run --user --share=network --filesystem=$(pwd) --devel $SDK
 
 mv ./flatpak-sources.json ../gradle-sources.json
