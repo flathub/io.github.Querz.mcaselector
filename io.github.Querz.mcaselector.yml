@@ -27,7 +27,8 @@ modules:
   - name: mcaselector
     buildsystem: simple
     build-commands:
-      - source /usr/lib/sdk/openjdk21/enable.sh && gradle build shadowJar --stacktrace --warning-mode all --offline
+      - source /usr/lib/sdk/openjdk21/enable.sh && gradle build shadowJar --stacktrace
+        --warning-mode all --offline
       - |
         shopt -s extglob
         mv build/libs/mcaselector-!(*-min).jar /app/lib/mcaselector.jar
@@ -38,15 +39,16 @@ modules:
     sources:
       - type: git
         url: https://github.com/Querz/mcaselector.git
-        tag: '2.7'
-        commit: ffca1fe7a920e6f1ce0c595cb60390c40567282f
+        tag: '2.8'
+        commit: 11723cff4a936fa72a5ec1bd12e82e438a33d6ad
         x-checker-data:
           type: git
           tag-pattern: ^(\d+(?:\.\d+(?:\.\d+)?)?)$
       - type: script
         dest-filename: mcaselector
         commands:
-          - exec /app/jre/bin/java --module-path /app/lib/javafx --add-modules ALL-MODULE-PATH -jar /app/lib/mcaselector.jar "$@"
+          - exec /app/jre/bin/java --module-path /app/lib/javafx --add-modules ALL-MODULE-PATH
+            -jar /app/lib/mcaselector.jar "$@"
       - type: patch
         path: 0001-gradle-generate-flatpak-sources.patch
       - type: file
