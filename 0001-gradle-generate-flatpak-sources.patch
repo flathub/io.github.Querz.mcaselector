@@ -1,24 +1,24 @@
 diff --git a/build.gradle b/build.gradle
-index ebb8502c..7b7949ab 100644
+index a5221320..15e99535 100644
 --- a/build.gradle
 +++ b/build.gradle
-@@ -6,6 +6,7 @@ plugins {
- 	id 'org.openjfx.javafxplugin' version '0.1.0'
- 	id 'com.gradleup.shadow' version '9.0.0-beta11'
+@@ -10,6 +10,7 @@ plugins {
+ 	id 'com.gradleup.shadow' version '9.2.2'
  	id 'com.github.ben-manes.versions' version '0.52.0'
-+	id "io.github.jwharm.flatpak-gradle-generator" version "1.6.0"
+ 	id 'org.beryx.runtime' version '2.0.1'
++	id "io.github.jwharm.flatpak-gradle-generator" version "1.8.0"
  }
  
- group 'net.querz'
-@@ -34,6 +35,7 @@ repositories {
- 	maven {
- 		url 'https://plugins.gradle.org/m2/'
- 	}
-+	maven { url "./offline-repository" }
+ group = 'net.querz'
+@@ -36,6 +37,7 @@ repositories {
+ 	mavenCentral()
+ 	maven { url = 'https://jitpack.io/' }
+ 	maven { url = 'https://plugins.gradle.org/m2/' }
++	maven { url = "./offline-repository" }
  }
  
  dependencies {
-@@ -98,6 +100,11 @@ tasks.register('generator', JavaExec) {
+@@ -83,6 +85,11 @@ tasks.register('generator', JavaExec) {
  	classpath = sourceSets.main.runtimeClasspath
  }
  
@@ -28,8 +28,15 @@ index ebb8502c..7b7949ab 100644
 +}
 +
  jar {
- 	archiveFileName = "${project.name}-${project.version}-min.jar"
- 	manifest.attributes (
+ 	dependsOn minifyCss
+ 	archiveFileName = "${projectName}-${projectVersion}.jar"
+@@ -195,4 +202,4 @@ static minCss(i, o) throws IOException {
+ 	catch (Exception ex) {
+ 		ex.printStackTrace()
+ 	}
+-}
+\ No newline at end of file
++}
 diff --git a/settings.gradle b/settings.gradle
 index 6f42e8a9..4436e33b 100644
 --- a/settings.gradle
@@ -51,5 +58,5 @@ index 6f42e8a9..4436e33b 100644
  rootProject.name = 'mcaselector'
 \ No newline at end of file
 -- 
-2.51.0
+2.55.0
 
