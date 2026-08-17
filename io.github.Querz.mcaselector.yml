@@ -52,8 +52,8 @@ modules:
       - type: patch
         path: 0001-gradle-generate-flatpak-sources.patch
       - type: file
-        url: https://raw.githubusercontent.com/zefr0x/mcaselector/bb942e6993388394edadd56fb4d13eda5f0fadd9/installer/linux/net.querz.mcaselector.metainfo.xml
-        sha512: e06214ee8dadd961a941ec1ea6aa84a22788252239ba8cbb7d2b3e4100a4eeb39912e69588cc30e6ea8abd0a0619c75cec5b9e251e4a3b2f585565292c293dfc
+        url: https://raw.githubusercontent.com/Scrumplex/mcaselector/1e48896585ca01b311c58def10a99ef7183ffe03/installer/linux/net.querz.mcaselector.metainfo.xml
+        sha512: 257b2e301020b1b200d64fc9d8cc5ab57bb304fb038c8c9ebad075a242808687573b2f1353e7f3ff92fc573d1896460098245b1504d10f5b8dd95e86d218595f
       - type: file
         url: https://raw.githubusercontent.com/Scrumplex/mcaselector/c12b99c16cb70e3eeea9832d638f1743170a8682/contrib/net.querz.mcaselector.png
         sha512: 7bbcfd8db23f2b6a654226c2921e03055338a4b0760dce85eb68e729da3b7ccb85ea339f13a35da06e05b02832088f759f32d1da38b6490caeda099d9237b913
