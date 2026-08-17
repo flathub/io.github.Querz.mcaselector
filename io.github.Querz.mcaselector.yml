@@ -31,7 +31,7 @@ modules:
         --warning-mode all --offline
       - |
         shopt -s extglob
-        mv build/libs/mcaselector-!(*-min).jar /app/lib/mcaselector.jar
+        mv build/libs/mcaselector-*-all.jar /app/lib/mcaselector.jar
       - install -Dm755 mcaselector /app/bin/mcaselector
       - install -Dm644 net.querz.mcaselector.png -t /app/share/icons/hicolor/512x512/apps/
       - install -Dm644 net.querz.mcaselector.desktop -t /app/share/applications/
