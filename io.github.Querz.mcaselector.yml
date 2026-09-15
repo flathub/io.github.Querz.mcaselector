@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Querz/mcaselector.git
-        tag: '2.8'
-        commit: 11723cff4a936fa72a5ec1bd12e82e438a33d6ad
+        tag: '2.9'
+        commit: 88884a9b41dc834189eb90a872388fb226d77985
         x-checker-data:
           type: git
           tag-pattern: ^(\d+(?:\.\d+(?:\.\d+)?)?)$
